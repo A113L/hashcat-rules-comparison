@@ -202,7 +202,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | top500hashmob.rule | 10.00% | 495 | 9584 | 20.20202 |
 | amaterasu.rule | 9.36% | 12860 | 8316 | 0.727838 |
 | cyclone_250.rule | 9.33% | 250 | 7979 | 37.32 |
-| optimized_top_rules_CLEANED_2_31.rule | 8.91% | 31 | 2739 | 112.580645 |
+| ultra.rule | 8.91% | 31 | 2739 | 287.4194 |
 | hashpwn_250.rule | 8.80% | 250 | 7979 | 35.2 |
 | sapphire_tiny.rule | 8.60% | 250 | 8641 | 34.4 |
 | extr.rule | 7.75% | 1138 | 7958 | 6.810193 |
