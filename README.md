@@ -247,4 +247,5 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 
 ---
 
-*Benchmarks by A1131. Source: [hashcat-rules-comparison](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI)*
+*Benchmarks by A1131. Source: [hashcat-rules-comparison](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI), [interactive compares
+](https://hcrt.pages.dev/rules_efficiency)*
