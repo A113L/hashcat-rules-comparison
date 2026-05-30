@@ -21,9 +21,9 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | Fordyv3-1Mil.rule | 52.04% | 999947 | 1697.81 | 0.052043 |
 | sapphire_v4.rule | 51.55% | 1760303 | 1066.84 | 0.029285 |
 | SuperUnicorn.rule | 51.15% | 1077832 | 4380.19 | 0.047456 |
+| sapphire_v3.minimized.rule | 49.69% | 742903 | 2192.21 | 0.06687 |
 | omgwtfbbq.rule | 49.62% | 6724974 | 229.2 | 0.007378 |
 | a1131_10_740k_r2.rule | 49.56% | 747502 | 2470.79 | 0.066301 |
-| sapphire_v3.rule | 49.44% | 749996 | 1757.29 | 0.06592 |
 | a1131_CONSOLIDATED_MT_952957.rule | 49.12% | 952957 | 1867.82 | 0.051545 |
 | Fordyv3-500k.rule | 48.92% | 499999 | 3155.71 | 0.09784 |
 | FordyBigBoy.rule | 47.72% | 886008 | 2099.85 | 0.05386 |
@@ -103,6 +103,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | A1131_50k.rule | 32.96% | 50000 | 25118.93 | 0.6592 |
 | SoSander-Full.optimized.50k.rule | 32.77% | 50000 | 24110.23 | 0.6554 |
 | recondite_35399.rule | 32.76% | 35399 | 27825.3 | 0.92545 |
+| ruleflow125k.rule | 32.28% | 125001 | 8320.69 | 0.258238 |
 | fordy50k.rule | 32.01% | 51995 | 24677.65 | 0.615636 |
 | _NSAKEY.v2.dive.rule | 31.97% | 123289 | 10818.74 | 0.259309 |
 | concentrator_MT_25000.rule | 31.82% | 25000 | 34943 | 1.2728 |
@@ -143,7 +144,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | A1131-insane-v3.rule | 23.85% | 1895473 | 348.98 | 0.012583 |
 | whisper_optimized.rule | 23.69% | 24872 | 26269 | 0.952477 |
 | _long.rule | 23.57% | 276917 | 3090.73 | 0.085116 |
-| ruleflow.rule | 23.50% | 50000 | 14525.69 | 0.47 |
+| ruleflow50k.rule | 23.50% | 50000 | 14525.69 | 0.47 |
 | concentrator_MT_5000.rule | 23.38% | 5000 | 23900 | 4.676 |
 | fordy10k.rule | 22.65% | 9999 | 23315 | 2.265227 |
 | top_CLEANED_2_9494.rule | 22.59% | 9494 | 24833 | 2.379398 |
@@ -165,6 +166,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | optimized_top_rules_CLEANED_2_2992.rule | 18.72% | 2992 | 19106 | 6.256684 |
 | aether5k.r1.rule | 18.59% | 5000 | 20179 | 3.718 |
 | InsidePro-HashManager.rule | 18.11% | 6746 | 18741 | 2.684554 |
+| ruleflow12k.rule | 18.02% | 12001 | 20081 | 1.50154 |
 | insane-fast.rule | 17.85% | 42628 | 15980.58 | 0.418739 |
 | pareto_21331.rule | 17.62% | 21331 | 8105.55 | 0.826028 |
 | d3adhob0.rule | 17.24% | 57548 | 8105.55 | 0.299576 |
@@ -202,7 +204,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | top500hashmob.rule | 10.00% | 495 | 9584 | 20.20202 |
 | amaterasu.rule | 9.36% | 12860 | 8316 | 0.727838 |
 | cyclone_250.rule | 9.33% | 250 | 7979 | 37.32 |
-| ultra.rule | 8.91% | 31 | 2739 | 287.4194 |
+| ultra.rule | 8.91% | 31 | 2739 | 287.4193548 |
 | hashpwn_250.rule | 8.80% | 250 | 7979 | 35.2 |
 | sapphire_tiny.rule | 8.60% | 250 | 8641 | 34.4 |
 | extr.rule | 7.75% | 1138 | 7958 | 6.810193 |
