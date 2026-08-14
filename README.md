@@ -1,10 +1,17 @@
-# Hashcat Rules Benchmark
+# Hashcracking Wordlists & Rules Benchmarks
 
-Benchmarks comparing hashcat rule files by recovery rate, rule count, average crack rate, and efficiency.
+## Information & Resources
 
-> **Wordlist:** `hashmob.medium.found`  
-> **Hashlist:** Generated from various dictionaries using the `hashgen` utility, filtered for the presence of the string `a1131` in the hash.  
-> **Baseline:** 367 passwords recovered without any rules.
+- Wordlists for Hashcracking
+- Rules repository
+- **Hashlist info**: hash list generated from various dictionaries using the hashgen utility and filtered for the presence of the string 'a1131' in the hash.
+- Wordlists + Rules benchmarks  by Penguinkeeper
+- Hashcracking CTF's
+- **wordlist**: hashmob.medium.found
+- Hashcat Rules Suite
+- **Contact**: https://matrix.to/#/@a1131:matrix.org
+- **PGP**: 4B0A386530D789157435DC7489138FB52FDD7FC1
+- hashmob.medium.found - 367 founds without rules
 
 ---
 
@@ -38,6 +45,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | rulest_rules_strip_1p7m.rule | 44.65% | 1743241 | 821.74 | 0.025613 |
 | concentrator_MT_250000.rule | 44.59% | 250000 | 7713.94 | 0.17836 |
 | rulest_large.rule | 44.54% | 499996 | 2814.63 | 0.08908 |
+| rulest_large_r1.rule | 44.52% | 513641 | 2930 | 0.086675 |
 | Fordyv2.rule | 44.39% | 382629 | 4638.76 | 0.116013 |
 | fordyv1.rule | 44.34% | 483702 | 3477.58 | 0.091668 |
 | fordyv2a.rule | 44.19% | 343941 | 5049.89 | 0.128481 |
@@ -47,6 +55,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | Robot_CurrentBestRules.rule | 43.41% | 942681 | 1822.41 | 0.04605 |
 | collection500k.rule | 43.38% | 500000 | 3495.74 | 0.08676 |
 | snipe.rule | 43.14% | 166279 | 10306.68 | 0.259443 |
+| rulest_large_r2.rule | 42.89% | 531169 | 2693.46 | 0.0807 |
 | recondite_161763.rule | 42.51% | 161763 | 9810.31 | 0.262792 |
 | top_CLEANED_2_244535.rule | 42.23% | 244535 | 6855.21 | 0.172695 |
 | HashMob.100k.rule | 42.12% | 100000 | 15270.42 | 0.4212 |
@@ -63,15 +72,18 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | concentrator_MT_100000.rule | 40.07% | 100000 | 17164.99 | 0.4007 |
 | FordyCombined.rule | 40.01% | 329200 | 4899.26 | 0.121537 |
 | Shooter3k_8_21_2021Cleaned.rule | 39.79% | 205745 | 7861.93 | 0.193395 |
+| rulest_medium_r1.rule | 39.79% | 179166 | 7726 | 0.2221 |
 | a1131_30_90k_r2.rule | 39.63% | 90713 | 18459.7 | 0.436872 |
 | techtrip.rule | 39.61% | 202125 | 8384.7 | 0.195968 |
 | 0xV-Sappuka.skull.optimized.150k.rule | 39.60% | 150000 | 8616.87 | 0.264 |
+| rulest_medium_r2.rule | 39.29% | 180709 | 7184.63 | 0 |
 | williamsuper.rule | 39.27% | 314984 | 4947.85 | 0.124673 |
 | whisper.rule | 39.09% | 237340 | 5907.52 | 0.1647 |
 | pantagrule.hashorg.v6.raw1m.rule | 38.99% | 1000000 | 1503.72 | 0.03899 |
 | pantagrule.hashorg.v6.random.rule | 38.98% | 638773 | 2420.16 | 0.061023 |
 | hashcracky_500k.rule | 38.87% | 500000 | 2447.74 | 0.07774 |
 | pantagrule.hashorg.v6.popular.rule | 38.85% | 514416 | 3065.69 | 0.075523 |
+| rulest_r1_optimized.rule | 38.73% | 150001 | 9140.35 | 0.2575 |
 | rulest_medium.rule | 38.63% | 149996 | 7943.91 | 0.25753 |
 | hashcracky_300k.rule | 38.57% | 300000 | 4158.01 | 0.128567 |
 | recondite_86657.rule | 38.42% | 86657 | 16613.09 | 0.443357 |
@@ -125,6 +137,8 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | minimizer_optimized.rule | 29.63% | 36602 | 21904.97 | 0.809519 |
 | misty_optimized.rule | 29.59% | 62618 | 13495.85 | 0.472548 |
 | A1131_25k.rule | 29.19% | 25000 | 31982 | 1.1676 |
+| rulest_small_r1.rule | 29.06% | 25730 | 32385 | 1.1294 |
+| rulest_small_r2.rule | 28.84% | 29495 | 25486.24 | 1 |
 | KoreLogicCombined.rule | 28.70% | 3802657 | 251.88 | 0.007547 |
 | generated2.rule | 28.11% | 65117 | 12935.18 | 0.431685 |
 | blandyuk_combined.rule | 28.11% | 363135 | 2626.43 | 0.077409 |
@@ -204,6 +218,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | top500hashmob.rule | 10.00% | 495 | 9584 | 20.20202 |
 | amaterasu.rule | 9.36% | 12860 | 8316 | 0.727838 |
 | cyclone_250.rule | 9.33% | 250 | 7979 | 37.32 |
+| rulest_tiny_r1.rule | 9.14% | 585 | 10186 | 15.6239 |
 | ultra.rule | 8.91% | 31 | 2739 | 287.4193548 |
 | hashpwn_250.rule | 8.80% | 250 | 7979 | 35.2 |
 | sapphire_tiny.rule | 8.60% | 250 | 8641 | 34.4 |
@@ -240,6 +255,7 @@ Benchmarks comparing hashcat rule files by recovery rate, rule count, average cr
 | skalman_takesuonadate.rule | 2.66% | 968 | 1517 | 2.747934 |
 | append-firstnames.rule | 2.61% | 4940 | 926 | 0.52834 |
 | fast_64.rule | 2.46% | 66 | 1957 | 37.272727 |
+| rulest_tiny_r2.rule | 2.09% | 95 | 2332 | 22,0 |
 | jabbercracky_short_15.rule | 1.76% | 15 | 726 | 117.333333 |
 | Robot-Best10.rule | 1.62% | 10 | 581 | 162 |
 | Combined-leetspeak.rule | 1.36% | 21 | 556 | 64.761905 |
