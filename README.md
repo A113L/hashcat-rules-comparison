@@ -2,13 +2,8 @@
 
 ## Information & Resources
 
-- Wordlists for Hashcracking
-- Rules repository
 - **Hashlist info**: hash list generated from various dictionaries using the hashgen utility and filtered for the presence of the string 'a1131' in the hash.
-- Wordlists + Rules benchmarks  by Penguinkeeper
-- Hashcracking CTF's
 - **wordlist**: hashmob.medium.found
-- Hashcat Rules Suite
 - **Contact**: https://matrix.to/#/@a1131:matrix.org
 - **PGP**: 4B0A386530D789157435DC7489138FB52FDD7FC1
 - hashmob.medium.found - 367 founds without rules
