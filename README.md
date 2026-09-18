@@ -12,7 +12,7 @@
 
 ## Benchmarks Table
 
-| Rules | Recovered | Rules Count | AVG Crack Rate (/h) | Efficiency Score |
+| Rules | Recovered | Rules Count | AVG Crack Rate | Efficiency Score |
 | --- | --- | --- | --- | --- |
 | Fordyv4a.rule | 56.94% | 4003430 | 420.3 | 0.014223 |
 | Fordyv4b.rule | 56.28% | 6901692 | 257.91 | 0.008155 |
