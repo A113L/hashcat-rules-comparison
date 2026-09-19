@@ -97,6 +97,7 @@
 | snipe.optimized.rule | 36.68% | 65841 | 21995.87 | 0.5571 |
 | jabbercracky_100k.rule | 36.53% | 100000 | 9348.13 | 0.3653 |
 | sapphire_medium.rule | 36.14% | 50000 | 30294.12 | 0.7228 |
+| rulest.greedy.150000.rule | 36.12% | 150000 | 40255 | 0.2408 |
 | sapphire.optimized.rule | 35.99% | 64870 | 17584.67 | 0.554802 |
 | a1131_40_48k_r2.rule | 35.89% | 48770 | 31063.36 | 0.735903 |
 | ORTRTS.rule | 35.80% | 48439 | 27825.62 | 0.739074 |
@@ -128,6 +129,7 @@
 | rulechef_markov.rule | 30.31% | 50001 | 19506.87 | 0.606188 |
 | pantagrule.hashorg.v6.one.rule | 29.85% | 99092 | 11557.05 | 0.301235 |
 | optimized_top_rules_CLEANED_2_35804.rule | 29.81% | 35804 | 31324 | 0.832589 |
+| rulest.greedy.50000.rule | 29.78% | 50000 | 33188 | 0.5956 |
 | wild-medium.rule | 29.65% | 85109 | 13324.78 | 0.348377 |
 | minimizer_optimized.rule | 29.63% | 36602 | 21904.97 | 0.809519 |
 | misty_optimized.rule | 29.59% | 62618 | 13495.85 | 0.472548 |
@@ -137,6 +139,7 @@
 | KoreLogicCombined.rule | 28.70% | 3802657 | 251.88 | 0.007547 |
 | generated2.rule | 28.11% | 65117 | 12935.18 | 0.431685 |
 | blandyuk_combined.rule | 28.11% | 363135 | 2626.43 | 0.077409 |
+| rulest.freq.150000.rule | 28.02% | 150000 | 31229 | 0.1868 |
 | collection50k.rule | 27.72% | 50000 | 19234.93 | 0.5544 |
 | concentrator_markov.rule | 27.72% | 50001 | 17778.99 | 0.554389 |
 | a1131_50_14k_r2.rule | 27.46% | 13876 | 30567 | 1.978956 |
@@ -148,6 +151,7 @@
 | insane-slow.rule | 26.08% | 855904 | 2954.11 | 0.030471 |
 | sapphire_small.rule | 25.50% | 10000 | 28257 | 2.55 |
 | A1131-insane-v2.rule | 25.35% | 627950 | 1325.19 | 0.040369 |
+| rulest.greedy.25000.rule | 24.91% | 25000 | 27763 | 0.9964 |
 | jabbercracky_10k.rule | 24.35% | 10000 | 25248 | 2.435 |
 | a1131_Gen_TOP_10000.rule | 24.03% | 10000 | 26585 | 2.403 |
 | A1131-insane-v3.rule | 23.85% | 1895473 | 348.98 | 0.012583 |
@@ -165,7 +169,9 @@
 | jabbercracky_5k.rule | 20.92% | 5000 | 21234 | 4.184 |
 | optimized_top_rules_CLEANED_2_5331.rule | 20.57% | 5331 | 21186 | 3.858563 |
 | generated.rule | 20.44% | 14733 | 20979 | 1.387362 |
+| rulest.freq.50000.rule | 20.25% | 50000 | 22566 | 0.405 |
 | recondite_3455.rule | 20.15% | 3455 | 21488 | 5.832127 |
+| rulest.greedy.10000.rule | 19.71% | 10000 | 21971 | 1.971 |
 | concentrator_MT_5000.optimized.rule | 19.60% | 5000 | 21324 | 3.92 |
 | A1131-insane-v1.rule | 19.13% | 106180 | 7488.5 | 0.180166 |
 | wild-fast.rule | 19.05% | 23184 | 20718 | 0.821687 |
@@ -183,6 +189,7 @@
 | hashpwn_1500.rule | 16.91% | 1500 | 8105.55 | 11.273333 |
 | top100hashmob.rule | 16.82% | 104 | 8105.55 | 161.730769 |
 | pareto_11004.rule | 16.74% | 11004 | 8105.55 | 1.521265 |
+| rulest.freq.25000.rule | 15.99% | 25000 | 17818 | 0.6396 |
 | InsidePro-PasswordsPro.rule | 15.91% | 3254 | 8105.55 | 4.889367 |
 | append.rule | 15.87% | 20729 | 8105.55 | 0.765594 |
 | a1131_60_1717_r2.rule | 15.70% | 1709 | 8105.55 | 9.186659 |
@@ -205,12 +212,15 @@
 | top5k.rule | 11.51% | 5000 | 12649 | 2.302 |
 | techtrip1000.rule | 11.48% | 1000 | 11963 | 11.48 |
 | Top1000.rule | 11.46% | 1000 | 11941 | 11.46 |
+| rulest.freq.10000.rule | 11.44% | 10000 | 12748 | 1.144 |
 | optimized_top_rules_CLEANED_2_534.rule | 11.43% | 534 | 11779 | 21.404494 |
 | hashpwn_500.rule | 11.35% | 500 | 11146 | 22.7 |
 | _short.rule | 10.73% | 5619 | 10428 | 1.909592 |
 | _NSAKEY_Combined.rule | 10.71% | 1088 | 10400 | 9.84375 |
 | concentrator_MT_250.rule | 10.57% | 250 | 9803 | 42.28 |
+| rulest.greedy.1500.rule | 10.45% | 1500 | 11646 | 6.9667 |
 | top500hashmob.rule | 10.00% | 495 | 9584 | 20.20202 |
+| best.rule | 9.63% | 376 | 10728 | 25.6117 |
 | amaterasu.rule | 9.36% | 12860 | 8316 | 0.727838 |
 | cyclone_250.rule | 9.33% | 250 | 7979 | 37.32 |
 | rulest_tiny_r1.rule | 9.14% | 585 | 10186 | 15.6239 |
@@ -230,8 +240,10 @@
 | yubaba64.rule | 5.65% | 64 | 4867 | 88.28125 |
 | recondite_75.rule | 5.10% | 75 | 5649 | 68 |
 | HashMob._100.rule | 5.07% | 100 | 5485 | 50.7 |
+| rulest.greedy.250.rule | 5.06% | 250 | 5640 | 20.24 |
 | concentrator_MT_64.rule | 4.92% | 64 | 4766 | 76.875 |
 | best64.rule | 4.80% | 89 | 4607 | 53.932584 |
+| rulest.freq.1500.rule | 4.61% | 1500 | 5140 | 3.0733 |
 | Robot_toporder.rule | 4.45% | 234 | 4351 | 19.017094 |
 | jabbercracky_50.rule | 4.37% | 50 | 3985 | 87.4 |
 | rulest_tiny.rule | 4.34% | 246 | 4838 | 17.2908 |
@@ -250,10 +262,13 @@
 | skalman_takesuonadate.rule | 2.66% | 968 | 1517 | 2.747934 |
 | append-firstnames.rule | 2.61% | 4940 | 926 | 0.52834 |
 | fast_64.rule | 2.46% | 66 | 1957 | 37.272727 |
+| rulest.greedy.64.rule | 2.10% | 64 | 2344 | 32.8125 |
 | rulest_tiny_r2.rule | 2.09% | 95 | 2332 | 22,0 |
 | jabbercracky_short_15.rule | 1.76% | 15 | 726 | 117.333333 |
+| rulest.freq.250.rule | 1.73% | 250 | 1925 | 6.92 |
 | Robot-Best10.rule | 1.62% | 10 | 581 | 162 |
 | Combined-leetspeak.rule | 1.36% | 21 | 556 | 64.761905 |
+| rulest.freq.64.rule | 0.88% | 64 | 979 | 13.75 |
 | Unicode.rule | 0.83% | 23571 | 388 | 0.035213 |
 | Emojis.rule | 0.65% | 8974 | 342 | 0.072431 |
 | A1131-insane-v4.rule | 0.52% | 326 | 0 | 1.595092 |
