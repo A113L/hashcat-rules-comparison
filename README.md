@@ -2,7 +2,7 @@
 
 ## Information & Resources
 
-- **Hashlist info**: hash list generated from various dictionaries using the hashgen utility and filtered for the presence of the string 'a1131' in the hash.
+- **Hashlist info**: hash list generated from various dictionaries using the hashgen utility.
 - **wordlist**: hashmob.medium.found
 - **Contact**: https://matrix.to/#/@a1131:matrix.org
 - **PGP**: 4B0A386530D789157435DC7489138FB52FDD7FC1
@@ -17,7 +17,7 @@
 | Fordyv4a.rule | 56.94% | 4003430 | 420.3 | 0.014223 |
 | Fordyv4b.rule | 56.28% | 6901692 | 257.91 | 0.008155 |
 | Fordyv3-2Mil.rule | 54.53% | 1999904 | 888.62 | 0.027266 |
-| A11313M.rule | 53.97% | 3207290 | 593.2 | 0.016827 |
+| A1131.3M.rule | 53.97% | 3207290 | 593.2 | 0.016827 |
 | sapphire_v1.rule | 52.06% | 1270145 | 1502.4 | 0.040987 |
 | CakeV1.rule | 52.04% | 999949 | 1770.2 | 0.052043 |
 | Fordyv3-1Mil.rule | 52.04% | 999947 | 1697.81 | 0.052043 |
@@ -112,6 +112,7 @@
 | SoSander-Full.optimized.50k.rule | 32.77% | 50000 | 24110.23 | 0.6554 |
 | recondite_35399.rule | 32.76% | 35399 | 27825.3 | 0.92545 |
 | ruleflow125k.rule | 32.28% | 125001 | 8320.69 | 0.258238 |
+| a1131.greedy.40000.rule | 32.16% | 38292 | 34198.6 | 0.8397 |
 | fordy50k.rule | 32.01% | 51995 | 24677.65 | 0.615636 |
 | _NSAKEY.v2.dive.rule | 31.97% | 123289 | 10818.74 | 0.259309 |
 | concentrator_MT_25000.rule | 31.82% | 25000 | 34943 | 1.2728 |
@@ -137,6 +138,7 @@
 | rulest_small_r1.rule | 29.06% | 25730 | 32385 | 1.1294 |
 | rulest_small_r2.rule | 28.84% | 29495 | 25486.24 | 1 |
 | KoreLogicCombined.rule | 28.70% | 3802657 | 251.88 | 0.007547 |
+| a1131.greedy.25000.rule | 28.60% | 25000 | 31879 | 1.144 |
 | generated2.rule | 28.11% | 65117 | 12935.18 | 0.431685 |
 | blandyuk_combined.rule | 28.11% | 363135 | 2626.43 | 0.077409 |
 | rulest.freq.150000.rule | 28.02% | 150000 | 31229 | 0.1868 |
@@ -149,6 +151,7 @@
 | rockyou-30000.rule | 26.21% | 30000 | 27140 | 0.873667 |
 | optimized_top_rules_CLEANED_2_16533.rule | 26.14% | 16533 | 26778 | 1.58108 |
 | insane-slow.rule | 26.08% | 855904 | 2954.11 | 0.030471 |
+| ranker.greedy.40000.rule | 25.60% | 41095 | 22219.43 | 0.512 |
 | sapphire_small.rule | 25.50% | 10000 | 28257 | 2.55 |
 | A1131-insane-v2.rule | 25.35% | 627950 | 1325.19 | 0.040369 |
 | rulest.greedy.25000.rule | 24.91% | 25000 | 27763 | 0.9964 |
@@ -159,6 +162,8 @@
 | _long.rule | 23.57% | 276917 | 3090.73 | 0.085116 |
 | ruleflow50k.rule | 23.50% | 50000 | 14525.69 | 0.47 |
 | concentrator_MT_5000.rule | 23.38% | 5000 | 23900 | 4.676 |
+| ranker.greedy.25000.rule | 23.18% | 25000 | 25833 | 0.9272 |
+| a1131.greedy.10000.rule | 22.75% | 10000 | 25352 | 2.275 |
 | fordy10k.rule | 22.65% | 9999 | 23315 | 2.265227 |
 | top_CLEANED_2_9494.rule | 22.59% | 9494 | 24833 | 2.379398 |
 | hashpwn_5000.rule | 22.28% | 5000 | 22920 | 4.456 |
@@ -171,6 +176,7 @@
 | generated.rule | 20.44% | 14733 | 20979 | 1.387362 |
 | rulest.freq.50000.rule | 20.25% | 50000 | 22566 | 0.405 |
 | recondite_3455.rule | 20.15% | 3455 | 21488 | 5.832127 |
+| ranker.greedy.10000.rule | 19.72% | 10000 | 21979 | 1.972 |
 | rulest.greedy.10000.rule | 19.71% | 10000 | 21971 | 1.971 |
 | concentrator_MT_5000.optimized.rule | 19.60% | 5000 | 21324 | 3.92 |
 | A1131-insane-v1.rule | 19.13% | 106180 | 7488.5 | 0.180166 |
@@ -194,6 +200,7 @@
 | append.rule | 15.87% | 20729 | 8105.55 | 0.765594 |
 | a1131_60_1717_r2.rule | 15.70% | 1709 | 8105.55 | 9.186659 |
 | DietCrackers.rule | 15.46% | 30436 | 8105.55 | 0.507951 |
+| a1131.greedy.1500.rule | 15.20% | 1500 | 16939 | 10.1333 |
 | concentrator_MT_1000.skull.optimized.rule | 14.88% | 1000 | 8105.55 | 14.88 |
 | hashes-org-rules.rule | 14.08% | 51626 | 8105.55 | 0.272731 |
 | top_CLEANED_2_1246.rule | 14.07% | 1246 | 15303 | 11.292135 |
@@ -203,6 +210,7 @@
 | A1131.rule | 13.57% | 6240 | 14232 | 2.174679 |
 | UnicornCombined.rule | 13.57% | 3899 | 12828 | 3.48038 |
 | concentrator_MT_500.rule | 13.54% | 500 | 12795 | 27.08 |
+| ranker.greedy.1500.rule | 13.53% | 1500 | 15077 | 9.02 |
 | A1131_1k.rule | 12.77% | 1000 | 14134 | 12.77 |
 | recondite_675.rule | 12.68% | 675 | 13837 | 18.785185 |
 | insane-medium.rule | 12.42% | 64050 | 5901.45 | 0.193911 |
@@ -227,11 +235,13 @@
 | ultra.rule | 8.91% | 31 | 2739 | 287.4193548 |
 | hashpwn_250.rule | 8.80% | 250 | 7979 | 35.2 |
 | sapphire_tiny.rule | 8.60% | 250 | 8641 | 34.4 |
+| a1131.greedy.250.rule | 8.41% | 250 | 9378 | 33.64 |
 | extr.rule | 7.75% | 1138 | 7958 | 6.810193 |
 | generated_combos_validated_CLEANED_2_24800.rule | 7.46% | 24800 | 6925 | 0.300806 |
 | collection5k.rule | 7.16% | 5000 | 7044 | 1.432 |
 | skalman_test.rule | 7.16% | 294 | 6343 | 24.353741 |
 | pareto_308.rule | 7.14% | 308 | 7207 | 23.181818 |
+| ranker.greedy.250.rule | 6.86% | 250 | 7649 | 27.44 |
 | rulesfinder_bench.rule | 6.73% | 239 | 7505 | 28.159 |
 | Robot_Top1268Rules.rule | 6.47% | 1267 | 6299 | 5.106551 |
 | jabbercracky_100.rule | 6.32% | 100 | 5689 | 63.2 |
@@ -245,6 +255,7 @@
 | best64.rule | 4.80% | 89 | 4607 | 53.932584 |
 | rulest.freq.1500.rule | 4.61% | 1500 | 5140 | 3.0733 |
 | Robot_toporder.rule | 4.45% | 234 | 4351 | 19.017094 |
+| a1131.greedy.64.rule | 4.39% | 64 | 4895 | 68.5938 |
 | jabbercracky_50.rule | 4.37% | 50 | 3985 | 87.4 |
 | rulest_tiny.rule | 4.34% | 246 | 4838 | 17.2908 |
 | concentrator_MT_64.skull.optimized.rule | 4.28% | 64 | 4756 | 66.875 |
@@ -258,12 +269,13 @@
 | collection1k.rule | 3.51% | 1000 | 2906 | 3.51 |
 | concentrator_MT_64.optimized.rule | 3.39% | 64 | 3762 | 52.96875 |
 | A1131_45.rule | 3.38% | 45 | 3583 | 75.111111 |
+| ranker.greedy.64.rule | 3.30% | 64 | 3679 | 0.897 |
 | recondite_22.rule | 3.21% | 22 | 2962 | 145.909091 |
 | skalman_takesuonadate.rule | 2.66% | 968 | 1517 | 2.747934 |
 | append-firstnames.rule | 2.61% | 4940 | 926 | 0.52834 |
 | fast_64.rule | 2.46% | 66 | 1957 | 37.272727 |
 | rulest.greedy.64.rule | 2.10% | 64 | 2344 | 32.8125 |
-| rulest_tiny_r2.rule | 2.09% | 95 | 2332 | 22,0 |
+| rulest_tiny_r2.rule | 2.09% | 95 | 2332 | 22 |
 | jabbercracky_short_15.rule | 1.76% | 15 | 726 | 117.333333 |
 | rulest.freq.250.rule | 1.73% | 250 | 1925 | 6.92 |
 | Robot-Best10.rule | 1.62% | 10 | 581 | 162 |
