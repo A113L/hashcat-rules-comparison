@@ -7,7 +7,7 @@
 - a1131_Gen*                            - concentrator (markov and debugged)
 - concentrator_MT*                      - concentrator (debugged on huge hash corpus)
 - rulest_*                              - rulest (mainly CELF) , older strip* rules 
-                                               was sorted by frequency, r1* and similar
+                                               was sorted by frequency, r1*,r2* and similar
                                                naming - extracted and debugged.
 
 
