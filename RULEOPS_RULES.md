@@ -138,10 +138,13 @@
 | heaped_top64.rule | 4.27% | 65 | 91.58 | 64.9231 |
 | a1131_Gen_TOP_64.rule | 4.22% | 64 | 4398 | 64.5313 |
 | concentrator_MT_64.optimized.rule | 3.51% | 64 | 3762 | 52.9688 |
-
-[Google Sheet](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI/edit?gid=429429778#gid=429429778) with rules_medium_seeded overlap.
 | A1131_45.rule | 3.39% | 45 | 3583 | 75.1111 |
 | rulest.greedy.64.rule | 2.20% | 64 | 2344 | 32.8125 |
 | rulest_tiny_r2.rule | 2.10% | 95 | 2332 | 22 |
 | rulest.freq.250.rule | 1.75% | 250 | 1925 | 6.92 |
 | rulest.freq.64.rule | 0.88% | 64 | 979 | 13.75 |
+
+--- 
+
+[Google Sheet](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI/edit?gid=429429778#gid=429429778) with rules_medium_seeded overlap.
+
