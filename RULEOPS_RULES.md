@@ -144,7 +144,7 @@
 | rulest.freq.250.rule | 1.75% | 250 | 1925 | 6.92 |
 | rulest.freq.64.rule | 0.88% | 64 | 979 | 13.75 |
 
---- 
+--
 
 [Google Sheet](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI/edit?gid=429429778#gid=429429778) with rules_medium_seeded overlap.
 
