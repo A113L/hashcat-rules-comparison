@@ -146,5 +146,5 @@
 
 --
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI/edit?gid=429429778#gid=429429778) with rules_medium_seeded overlap.
+[Google Sheet](https://docs.google.com/spreadsheets/d/1ctT9o-hdMaJMe9ZM7e6t9x0uDmGphvOixe0FHnHGCEI/edit?gid=429429778#gid=429429778) with rulest_medium_seeded overlap.
 
